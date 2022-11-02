@@ -41,4 +41,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /*
+     * for KAVENEGAR notification system
+     */
+    public function routeNotificationForSms()
+    {
+        return $this->mobile_number;
+    }
+
 }

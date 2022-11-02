@@ -196,6 +196,7 @@ return [
          * Package Service Providers...
          */
         Lauthz\LauthzServiceProvider::class,
+        Kavenegar\LaravelNotification\KavenegarServiceProvider::class,
 
         /*
          * Application Service Providers...
