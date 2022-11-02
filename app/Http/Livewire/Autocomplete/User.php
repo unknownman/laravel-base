@@ -42,6 +42,7 @@ class User extends Component
         $this->emit('clear-user');
     }
 
+
     public function render()
     {
         return view('livewire.autocomplete.user');

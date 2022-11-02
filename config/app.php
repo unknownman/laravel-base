@@ -197,6 +197,8 @@ return [
          */
         Lauthz\LauthzServiceProvider::class,
         Kavenegar\LaravelNotification\KavenegarServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+
 
         /*
          * Application Service Providers...
@@ -223,6 +225,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'Enforcer' => Lauthz\Facades\Enforcer::class,
+
     ])->toArray(),
 
 ];

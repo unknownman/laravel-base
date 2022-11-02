@@ -33,7 +33,10 @@ window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 //     enabledTransports: ['ws', 'wss'],
 // });
 import Alpine from "alpinejs";
+import mask from "@alpinejs/mask";
+Alpine.plugin(mask);
 // import focus from "@alpinejs/focus";
 // Alpine.plugin(focus);
 window.Alpine = Alpine;
+
 Alpine.start();

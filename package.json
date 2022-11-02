@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "@alpinejs/focus": "^3.10.5",
+        "@alpinejs/mask": "^3.10.5",
         "alpinejs": "^3.10.4",
         "tailwind-scrollbar-hide": "^1.1.7"
     }
