@@ -31,7 +31,7 @@ class User extends Component
         $this->user = ModelsUser::find($item);
         $this->user_id = $this->user->id;
         $this->email = "";
-        $this->emit('user-select');
+        $this->emit('select-user', $this->user);
     }
 
     public function remove()

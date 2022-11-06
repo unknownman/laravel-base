@@ -66,6 +66,7 @@ class Form extends Component
     }
     public function updatingUser($user)
     {
+
         $this->department['user_id'] = isset($user) && $user['id'] ? $user['id'] : null;
     }
 
